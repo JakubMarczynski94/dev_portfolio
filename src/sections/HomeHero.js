@@ -10,6 +10,7 @@ import { aboutParagraph, HERO_TITLES } from '../mock/profile';
 import { ScrollContext } from '../context/ScrollContext';
 import ScrollToTop from '../components/ScrollToTop';
 
+
 // ----------------------------------------------------------------------
 
 export default function HomeHero() {
@@ -34,7 +35,16 @@ export default function HomeHero() {
           }}
           viewport={{ once: true }}
         >
-          <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
+          <div className='rounded-image'>
+            <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
+          </div>
+          <style jsx>{`
+            .rounded-image {
+              border-radius: 50%;
+              overflow: hidden;
+            }
+          `}</style>
+
         </motion.div>
         <h1 className="z-50 font-lato text-2xl font-bold sm:text-4xl md:font-semibold">
           Hi, Im{' '}
