@@ -24,8 +24,7 @@ export default function Header({ darkModeEnabled, toggleMode }) {
           <h3
             className="text-md cursor-pointer font-lato font-semibold tracking-widest md:text-2xl"
             onClick={jumpToTop}
-          >
-          </h3>
+           />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: 200 }}
