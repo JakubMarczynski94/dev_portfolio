@@ -11,6 +11,7 @@ export const FRONTEND_SKILLS = [
     icon: 'vscode-icons:file-type-css',
     iconClasses: 'text-3xl',
   },
+
   {
     label: 'Javascript',
     proficiency: '90%',
@@ -30,6 +31,18 @@ export const FRONTEND_SKILLS = [
     iconClasses: 'text-2xl',
   },
   {
+    label: 'Angular',
+    proficiency: '80%',
+    icon: 'vscode-icons:file-type-angular',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Vue',
+    proficiency: '80%',
+    icon: 'vscode-icons:file-type-vue',
+    iconClasses: 'text-3xl',
+  },
+  {
     label: 'Next.js',
     proficiency: '90%',
     icon: 'cib:next-js',
@@ -47,6 +60,7 @@ export const FRONTEND_SKILLS = [
     icon: 'logos:material-ui',
     iconClasses: 'text-2xl',
   },
+  
   {
     label: 'Tailwind CSS',
     proficiency: '90%',
@@ -110,6 +124,7 @@ export const BACKEND_SKILLS = [
     icon: 'vscode-icons:file-type-node',
     iconClasses: 'text-3xl',
   },
+
   {
     label: 'Express (Node.js Framework)',
     proficiency: '90%',
@@ -126,6 +141,18 @@ export const BACKEND_SKILLS = [
     label: 'Graphql',
     proficiency: '90%',
     icon: 'logos:graphql',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Solidity',
+    proficiency: '90%',
+    icon: 'vscode-icons:file-type-solidity',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Rust',
+    proficiency: '90%',
+    icon: 'vscode-icons:file-type-rust',
     iconClasses: 'text-3xl',
   },
   {

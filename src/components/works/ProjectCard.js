@@ -30,7 +30,7 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
               rel="noreferrer"
               className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300"
             >
-              <Iconify classes="text-2xl" icon="akar-icons:github-fill" />
+              {/* <Iconify classes="text-2xl" icon="akar-icons:github-fill" /> */}
             </a>
           )}
           {sourceLink !== '' && (
