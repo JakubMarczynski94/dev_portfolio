@@ -36,7 +36,7 @@ export default function HomeHero() {
           viewport={{ once: true }}
         >
           <div className='rounded-image'>
-            <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
+            <img src={"/logo.png"} className="w-52 object-contain lg:w-64" alt="Logo" />
           </div>
           <style jsx>{`
             .rounded-image {
